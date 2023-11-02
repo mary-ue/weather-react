@@ -1,0 +1,27 @@
+.form {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.search {
+  padding-left: 10px;
+  padding-right: 40px;
+  width: 100%;
+  height: 100%;
+  font-size: 28px;
+}
+
+.search::-webkit-search-cancel-button {
+  display: none;
+}
+
+.btn {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
